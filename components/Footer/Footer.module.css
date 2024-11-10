@@ -1,0 +1,35 @@
+/* Footer.module.css */
+
+.footer {
+    height: 144px; 
+    background-color: #000;
+    opacity: 0.70;
+    color: white;
+    text-align: center;
+    padding: 24px;
+  }
+  
+  .footerText {
+    margin-bottom: 16px;
+    font-size: 18px;
+  }
+  
+  .footerContent {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+  
+  .contactItem {
+    margin-top: 30px; 
+  }
+  
+  .icon {
+    font-size: 32px;
+    margin-bottom: 8px;
+  }
+  
+  .contactText {
+    text-decoration: underline;
+  }
+  

@@ -1,0 +1,32 @@
+/* About.module.css */
+
+.aboutContainer {
+    border-bottom: 4px solid #f87171; 
+    padding: 40px;
+  }
+  
+  .aboutTitle {
+    font-size: 3rem; 
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    background: linear-gradient(to right, #4f46e5, #ec4899); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+  }
+  
+  .aboutDescription {
+    font-size: 1.25rem; 
+    text-align: center;
+    padding: 56px; 
+    background-color: #ffc08a; 
+    color: #2e2e2e; 
+    border-radius: 20px; 
+    border: 2px solid #ffc08a; 
+    margin: 44px; 
+    font-weight: bold;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+    word-wrap: break-word; 
+  }
+  

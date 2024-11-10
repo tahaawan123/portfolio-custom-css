@@ -1,0 +1,62 @@
+
+/* Projects.module.css */
+
+/* Container for the whole projects section */
+.projectsContainer {
+    margin-top: 44px;
+    padding-bottom: 20px;
+    border-bottom: 4px solid #f87171; 
+    text-align: center;
+  }
+  
+  /* Title of the Projects section */
+  .projectsTitle {
+    font-size: 3rem; 
+    font-weight: bold;
+    background: linear-gradient(to right, #4f46e5, #ec4899); 
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    margin-bottom: 40px;
+  }
+  
+  /* Styling for each project */
+  .project {
+    margin-bottom: 40px;
+  }
+  
+  /* Styling for the images of the projects */
+  .projectImage {
+    border-radius: 16px; 
+    margin-left: 20px; 
+    margin-right: 20px;
+  }
+  
+  /* Styling for the link container */
+  .projectLinkContainer {
+    padding: 24px;
+    text-align: center;
+    border: 2px solid #f87171; 
+    background: linear-gradient(to right, #4f46e5, #ec4899); 
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 16px; 
+    width: 240px;
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  /* Link text */
+  .projectLinkContainer a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+  }
+  
+  /* Add hover effect to project link */
+  .projectLinkContainer:hover {
+    transform: scale(1.05); 
+  }
+  

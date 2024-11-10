@@ -1,0 +1,89 @@
+/* Contact.module.css */
+
+/* Container for the whole contact section */
+.contactContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  /* Contact cards container */
+  .contactCardsContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 40px;
+  }
+  
+  /* Individual contact card */
+  .contactCard {
+    background-color: transparent;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  /* Icons size */
+  .icon {
+    font-size: 2.5rem;
+  }
+  
+  /* Label styling */
+  .contactLabel {
+    font-size: 1.1rem;
+    text-decoration: underline;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Information text */
+  .contactInfo {
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 5px;
+  }
+  
+  /* Form container */
+  .contactFormContainer {
+    background-color: #006f7d;
+    padding: 3rem;
+    width: 500px;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Contact form title */
+  .contactTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  /* Form input fields */
+  .inputField,
+  .textareaField {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 2px solid #ccc;
+    font-size: 1rem;
+  }
+  
+  .textareaField {
+    height: 150px;
+    resize: none;
+  }
+  
